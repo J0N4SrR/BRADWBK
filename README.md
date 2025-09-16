@@ -51,6 +51,37 @@ A tabela a seguir representa os endpoints para o recurso **Postagem**.
 
 Implemente a API que você modelou em um projeto **Java** com **Spring Web MVC**, seguindo as práticas e exemplos apresentados em sala de aula.
 
+A API modelada foi implementada em um projeto Java com Spring Web MVC.
+
+### Referências
+
+Para a construção dos endpoints e conexão com o banco de dados, foram utilizados como referência os seguintes vídeos. Embora os originais utilizem Kotlin, os conceitos foram adaptados para Java nesta implementação:
+
+-   [Spring boot #2 - VEJA COMO É FÁZIL CONECTAR UM BANCO DE DADOS NO SPRING BOOT](https://www.youtube.com/watch?v=DLMsJrVy07o)
+-   [Spring boot #3 - CRIE SEU PRIMEIRO ENDPOINT NO SPRING BOOT](https://www.youtube.com/watch?v=9suzNsWAeps&t=555s)
+
+### Testes dos Endpoints via Postman
+
+As imagens a seguir documentam os testes realizados em cada um dos cinco endpoints da API utilizando o Postman. Presume-se que as imagens estão na pasta `assets/images/` na raiz do projeto.
+
+**1. Listagem de todas as postagens (GET /postagens)**
+![GET All](assets/images/01.png)
+
+**2. Criação de uma nova postagem (POST /postagens)**
+![POST](assets/images/02.png)
+
+**3. Detalhes de uma postagem específica (GET /postagens/{id})**
+![GET by ID](assets/images/03.png)
+
+**4. Atualização de uma postagem (PUT /postagens/{id})**
+![PUT](assets/images/04.png)
+
+**5. Remoção de uma postagem (DELETE /postagens/{id})**
+![DELETE](assets/images/05.png)
+
+**6. Confirmação da remoção (GET /postagens)**
+![GET All After DELETE](assets/images/06.png)
+
 
 
 

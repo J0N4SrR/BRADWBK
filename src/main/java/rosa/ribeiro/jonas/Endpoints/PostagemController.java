@@ -47,7 +47,7 @@ public class PostagemController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT) 
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void removerPostagem(@PathVariable Long id) {
         postagemService.deletar(id);
     }
