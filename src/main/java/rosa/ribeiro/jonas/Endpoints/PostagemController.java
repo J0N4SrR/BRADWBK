@@ -3,8 +3,7 @@ package rosa.ribeiro.jonas.Endpoints;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import rosa.ribeiro.jonas.Endpoints.PostagemModel;
-import rosa.ribeiro.jonas.Endpoints.PostagemService;
+
 
 import java.util.List;
 
@@ -48,7 +47,7 @@ public class PostagemController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT) // 204 No Content é o padrão para DELETE bem-sucedido
+    @ResponseStatus(HttpStatus.NO_CONTENT) 
     public void removerPostagem(@PathVariable Long id) {
         postagemService.deletar(id);
     }
