@@ -33,7 +33,7 @@ O esquema a seguir representa um único recurso **Postagem**, conforme os atribu
 
 ![Validação JSON](assets/images/validadorJSON.png "Captura de tela do validador JSON")
 
-#Definição dos endpoints para o recurso
+# Definição dos endpoints para o recurso
 
 A tabela a seguir representa os endpoints para o recurso **Postagem**.
 
