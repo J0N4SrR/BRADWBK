@@ -1,6 +1,8 @@
-package rosa.ribeiro.jonas.Endpoints;
+package rosa.ribeiro.jonas.Endpoints.service;
 
 import org.springframework.stereotype.Service;
+import rosa.ribeiro.jonas.Endpoints.model.PostagemModel;
+import rosa.ribeiro.jonas.Endpoints.repository.PostagemRepository;
 
 
 import java.time.LocalDateTime;

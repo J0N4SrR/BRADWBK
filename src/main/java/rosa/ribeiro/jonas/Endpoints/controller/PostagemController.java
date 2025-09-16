@@ -1,8 +1,10 @@
-package rosa.ribeiro.jonas.Endpoints;
+package rosa.ribeiro.jonas.Endpoints.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import rosa.ribeiro.jonas.Endpoints.model.PostagemModel;
+import rosa.ribeiro.jonas.Endpoints.service.PostagemService;
 
 
 import java.util.List;

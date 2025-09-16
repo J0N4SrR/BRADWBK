@@ -1,4 +1,4 @@
-package rosa.ribeiro.jonas.Endpoints;
+package rosa.ribeiro.jonas.Endpoints.model;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
